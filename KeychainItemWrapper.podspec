@@ -8,6 +8,6 @@ s.authors = { '李召' => 'lizhaobomb@163.com' }
 s.source = { :git => 'https://github.com/lizhaobomb/KeychainItemWrapper.git', :tag => s.version.to_s }
 s.requires_arc = true
 s.ios.deployment_target = '7.0'
-s.source_files = 'KeychainItemWrapper/*.{h,m}'
+s.source_files = '*.{h,m}'
 #s.resources = 'KeychainItemWrapper/images/*.{png,xib}'
 end
